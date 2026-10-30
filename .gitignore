@@ -1,0 +1,61 @@
+# =========================================
+# LaTeX Build & Auxiliary Files
+# =========================================
+*.aux
+*.lof
+*.log
+!sample_logs/*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.dvi
+*.xdv
+*-eps-converted-to.pdf
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+*.synctex.gz
+*.synctex(busy)
+*.fdb_latexmk
+_minted*
+*.nav
+*.snm
+*.vrb
+
+# =========================================
+# Python Caches & Virtual Environments
+# =========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.env
+.venv
+env/
+venv/
+ENV/
+
+# =========================================
+# Temporary Office / Word Lock Files
+# =========================================
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# =========================================
+# Operating System & IDE Clutter
+# =========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
